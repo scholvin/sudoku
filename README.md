@@ -12,7 +12,7 @@ Compilation is trivial:
 
 or
 
-`clang++-std=c++11  sudoku.cpp -o sudoku`
+`clang++ -std=c++11  sudoku.cpp -o sudoku`
 
 ## Running
 
