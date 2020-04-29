@@ -5,9 +5,14 @@ isn't worth the time. So I wrote a solver.
 
 ## Building
 
-Any reasonably modern C++ compiler should work. It works with gcc 6.4 for sure. Compilation is trivial:
+Any reasonably modern C++ compiler should work. It works with gcc 6.4 and clang 3.6.2 for sure.
+Compilation is trivial:
 
 `g++ sudoku.cpp -o sudoko`
+
+or
+
+`clang++-std=c++11  sudoku.cpp -o sudoku`
 
 ## Running
 
