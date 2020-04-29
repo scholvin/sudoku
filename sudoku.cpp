@@ -159,6 +159,7 @@ std::istream& operator >> (std::istream& is, Sudoku& s)
             }
         }
     }
+    return is;
 }
 
 int main(int, char**)
